@@ -1,0 +1,148 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+
+a, button {
+    transition: all .3s ease-in-out;
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    outline: 2px solid purple;
+}
+
+.low {
+    outline: 2px solid purple;
+}
+
+.col {
+    box-sizing: border-box;
+    width: 23%;
+    text-align: center;;
+}
+
+.lol {
+    box-sizing: border-box;
+    width: 31%
+}
+
+/* Via Inline Block */
+
+.row_inline {
+    font-size: 0;
+}
+
+.low_inline {
+    font-size: 0;
+}
+
+.col {
+    background: yellowgreen;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    transition: all .5s ease-in;
+    font-size: 72px;
+}
+
+.lol {
+    background-color: yellowgreen;
+}
+
+
+.col_inline {
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.lol_inline {
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+
+.mol_inline {
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+
+.mol {
+    background: yellowgreen;
+}
+
+.mow_inline {
+    font-size: 0;
+}
+
+.mow {
+    outline: 2px solid purple;
+}
+
+.mol {
+    box-sizing: border-box;
+    width: 18%;
+}
+
+
+svg {
+    transition: all .5s ease-in .5s;
+}
+
+.col i {
+    font-size: 72px;
+}
+
+.col:hover {
+    background-color: white;
+        color: orange;
+
+}
+.col:hover svg{
+    fill:orange;
+}
+
+
+
+
+
+
+.row_flex {
+    display: flex;
+}
+
+.row_float{
+    overflow: auto;
+}
+
+.low_flex {
+    display: flex;
+    
+}
+
+
+.col_float {
+    float: left;
+}
+
+
+.col:hover {
+    background-color: #fff;
+    color: orange;
+
+}
